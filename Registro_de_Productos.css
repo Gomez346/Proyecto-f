@@ -1,0 +1,94 @@
+
+
+table {
+  width: 80%;
+  margin: 40px auto;
+  background: linear-gradient(to bottom, #22478d, #0445f8);
+}
+
+table.list {
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+}
+
+td {
+  border: 1px solid rgb(204, 200, 200);
+  text-align: left;
+  padding: 8px 15px;
+}
+
+tr:nth-child(even),
+table.list thead tr {
+  background-color: rgb(113, 141, 224);
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 91%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid rgb(143, 117, 223);
+  border-radius: 4px;
+  
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background: linear-gradient(to bottom, #01125f, #81bdee);
+  padding: 6px 12px;
+  margin: 15px 0 10px;
+  display: inline;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  outline: none;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background: #1e7fcf;
+}
+
+input[type="reset"]:hover {
+  background: #93c4ec;
+}
+
+button {
+  background: #eee;
+  padding: 6px 12px;
+  margin: 15px 0 10px;
+  display: block;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background: #86bae4;
+}
+
+/* Media Query para pantallas de celular */
+@media (max-width: 600px) {
+  table {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.NOM{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title{
+  text-align: center;
+  color: #01125f;
+}

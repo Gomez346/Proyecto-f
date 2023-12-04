@@ -1,0 +1,11 @@
+body {
+      background-color: #f2f2f2; /* Fondo */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .data-chart {
+      fill: #7DC855; /* Verde pastel */
+    }

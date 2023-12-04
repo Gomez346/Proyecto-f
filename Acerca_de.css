@@ -1,0 +1,245 @@
+:root {
+  --green-light: #8dfa11;
+  --green-dark: #d3f3d4;
+  --gradient: linear-gradient(90deg, var(--green-light) 0%, var(--green-dark) 100%);
+}
+
+body {
+  background: var(--gradient);
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-family: Algerian;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.plan {
+  height: 480px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  flex-basis: calc(20.33% - 20px); /* Mostrar 4 cuadros por fila en pantallas grandes */
+  max-width: calc(20.33% - 20px);
+}
+
+.plan-title {
+  background-color: linear-gradient(to right, #00ff00, #00cc00);
+padding: 0px;
+}
+
+.plan-price {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.plan-description{
+  font-size: 15px;
+}
+
+  
+/*imagen de admiracion*/
+.image-description{
+  display: flex;
+}
+
+.admiracion{
+  height: 18px;
+  margin: 5px;
+} 
+  
+ /*BOTON*/
+ .rounded-button {
+  background: linear-gradient(to right, #00ff00, #00cc00);
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.rounded-button:hover {
+  background: linear-gradient(to right, #00cc00, #009900);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+@media (max-width: 1024px) {
+  .plan {
+    flex-basis: calc(40% - 20px); /* Mostrar 2 cuadros por fila en tablet */
+    max-width: calc(40% - 20px);
+  }
+}
+
+@media (max-width: 500px) {
+  .plan {
+    flex-basis: calc(100% - 20px); /* Mostrar 1 cuadro por fila en dispositivos móviles */
+    max-width: calc(100% - 20px);
+  }
+}
+
+/*SERVICIOS POPULARES*/
+.container1 {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.plan1 {
+  height: 430px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  flex-basis: calc(28.33% - 20px); /* Mostrar 3 cuadros por fila en pantallas grandes */
+  max-width: calc(28.33% - 20px);
+}
+
+.plan-title1 {
+  background-color: linear-gradient(to right, #00ff00, #00cc00);
+padding: 0px;
+}
+
+.plan-description1{
+  font-size: 15px;
+}
+
+.dien{
+  height: 13em;
+  margin: 5px;
+} 
+  
+ /*BOTON*/
+ .rounded-button {
+  background: linear-gradient(to right, #00ff00, #00cc00);
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.rounded-button:hover {
+  background: linear-gradient(to right, #00cc00, #009900);
+}
+
+
+
+@media (max-width: 1024px) {
+  .plan1 {
+    flex-basis: calc(40% - 20px); /* Mostrar 2 cuadros por fila en tablet */
+    max-width: calc(40% - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .plan1 {
+    flex-basis: calc(100% - 20px); /* Mostrar 1 cuadro por fila en dispositivos móviles */
+    max-width: calc(100% - 20px);
+  }
+}
+
+
+.sometext {
+  font-family: Tahoma;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 40vh;
+}
+
+.mydiv {
+  position: relative;
+  margin: 6% auto;
+  width: 100%;
+  height: 480px;
+  background: linear-gradient(90deg, #029b02, #07fd07);
+}
+
+h6:before {
+  font-size: 25px;
+  margin: 50px 10px;
+  content: '';
+  animation: changingTxt 15s linear infinite;
+}
+
+@keyframes changingTxt {
+  0% {
+    content: 'Precios sencillos, disponibles, asequibles y excelentes servicios! Cada vez que mi esposa y yo necesitamos ir al dentista, sabemos que no hay otro lugar adonde ir que este. En serio, felicidades por tu profesionalismo y experiencia. ¡Nos vemos pronto para conseguir nuestras sonrisas de Hollywood! Alan Pitt';
+  }
+  25% {
+    content: 'Mis hijos y mi esposa merecen el mejor tratamiento, por eso he descubierto que en esta clínica puedes conseguir todo y más para cuidar dientes sanos y sonrisas hermosas. Estoy agradecido por la buena experiencia para los niños y para mí. Joe Schmoe';
+  }
+  50% {
+    content: 'Tus dentistas son mis salvadores. El servicio es excelente y me gustó que las habitaciones y el equipo estuvieran esterilizados y que las enfermeras fueran amables.   Definitivamente recomendaría a todos los que conozco a esta clínica, ¡porque es un lugar increíble!  Veintiuno';
+  }
+  75% {
+    content: 'Recibí rechazos de diferentes odontólogos debido a un caso único y complicado. Sin embargo, el Dr. Phillips me trajo esperanza y con entusiasmo me llevó a una cirugía que fue exitosa. Ahora puedo decir que nunca he sido más feliz. ¡Gracias doctor! Verónica Estrella';
+  }
+  100% {
+    content: 'Precios sencillos, disponibles y excelente servicio';
+  }
+}
+
+
+/*FOOTER*/
+footer {
+  background-color: #039b03;
+  padding: 20px;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.social-icons li {
+  margin: 0 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.social-icons img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Estilos al pasar el cursor sobre los enlaces */
+.social-icons a:hover {
+  transform: scale(1.2);
+}
