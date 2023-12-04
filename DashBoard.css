@@ -2,15 +2,15 @@
 
 :root {
   --light: #f6f6f9;
-  --primary: #83b158;
-  --light-primary: #83bef5;
+  --primary: #83bd4d;
+  --light-primary: #83f592;
   --grey: #eee;
   --dark-grey: #aaaaaa;
-  --dark: #363949;
+  --dark: #22524a;
   --danger: #d32f2f;
-  --light-danger: #fecdd3;
-  --warning: rgb(196, 252, 200);
-  --light-warning: #fff2c6;
+  --light-danger: #dcfecd;
+  --warning: rgb(73, 230, 83);
+  --light-warning: #0df705;
   --success: #76f77d;
   --light-success: #46fa85;
 }
