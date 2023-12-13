@@ -2,17 +2,17 @@
 
 :root {
   --light: #f6f6f9;
-  --primary: #83bd4d;
+  --primary: #185ef5;
   --light-primary: #83f592;
   --grey: #eee;
   --dark-grey: #aaaaaa;
   --dark: #22524a;
   --danger: #d32f2f;
   --light-danger: #dcfecd;
-  --warning: rgb(73, 230, 83);
-  --light-warning: #0df705;
-  --success: #76f77d;
-  --light-success: #46fa85;
+  --warning: rgb(83, 94, 155);
+  --light-warning: #4864e0;
+  --success: #1239e9;
+  --light-success: #413b92;
 }
 
 * {

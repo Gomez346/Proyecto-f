@@ -1,11 +1,11 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;    
 }
   /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
 .nav-back{
-  background: #42f542;
+  background: #7782e9;
   color: #fff;
 }
 .navbar-brand{
@@ -23,7 +23,7 @@ body{
 .navbar-toggler{
   outline: none!important;
 }
-  
+
 
   /*--------------------------------------------------------------
   # Hero Section
@@ -72,11 +72,11 @@ body{
       font-family: "Poppins", sans-serif;
       text-transform: uppercase;
       font-weight: 500;
-      font-size: 14px;
+      font-size: 16px;
       letter-spacing: 1px;
       display: inline-block;
       padding: 8px 28px;
-      border-radius: 50px;
+      border-radius: 150px;
       transition: 0.5s;
       margin: 10px;
       border: 2px solid #fff;
@@ -90,24 +90,22 @@ body{
       color:#fff;
     }
    .form-group .btn-form{
-    background: rgb(122, 243, 106);
-    border: 2px solid #11dbcf;
+    border-radius: 30pc;
+    background: transparent;
+    font-family: "algerian";
+    border: 2px solid #2c17e7;
     text-decoration: none;
     color:#000;
    }
    
  
+ 
 
-   #video_fondo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-  }
-  
+.col-sm-4{
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 
 

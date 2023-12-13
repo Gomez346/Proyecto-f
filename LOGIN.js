@@ -1,14 +1,20 @@
-function validarCredenciales() {
-  // Obtener los valores de usuario y contraseña
-  var usuario = document.getElementById('usuario').value;
-  var contrasena = document.getElementById('contrasena').value;
+const loginForm = document.getElementById("login-form");
+const loginButton = document.getElementById("login-form-submit");
+const loginErrorMsg = document.getElementById("login-error-msg");
 
-  // Verificar si los valores son válidos
-  if (usuario === 'usuario_valido' && contrasena === 'contrasena_valida') {
-      // Redireccionar a otra página
-      window.location.href = 'DashBoard.html';
-  } else {
-      // Mostrar un mensaje de error
-      alert('Usuario o contraseña incorrectos');
-  }
-}
+loginButton.addEventListener("click", (e) => {
+    e.preventDefault();
+    const username = loginForm.username.value;
+    const password = loginForm.password.value;
+
+    if (username === "user" && password === "web") {
+        alert("Has iniciado sesión correctamente.");
+        window.location.href = "DashBoard.html"; // Replace with the desired URL
+    } else {
+        loginErrorMsg.style.opacity = 1;
+    }
+});
+
+
+
+

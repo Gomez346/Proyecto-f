@@ -321,55 +321,55 @@ let products = [
     {
         id: 1,
         name: 'Cepillos de Dientes Eléctricos',
-        IMAGENES: 'C.JPG',
+        IMAGENES: 'CE1.JPG',
         price: 120000
     },
     {
         id: 2,
         name: 'Cepillo Dental Oral-B',
-        IMAGENES: 'C1.WEBP',
+        IMAGENES: 'CE2.JPG',
         price: 120000
     },
     {
         id: 3,
         name: 'Cepillo Dental Infantil',
-        IMAGENES: 'C2.JPG',
+        IMAGENES: 'CE3.JPG',
         price: 220000
     },
     {
         id: 4,
         name: 'Pasta Dental Colgate Blanqueador',
-        IMAGENES: 'C3.WEBP',
+        IMAGENES: 'CE4.JPG',
         price: 123000
     },
     {
         id: 5,
         name: 'Crema Colgate Carbon',
-        IMAGENES: 'C4.WEBP',
+        IMAGENES: 'CE5.JPG',
         price: 320000
     },
     {
         id: 6,
         name: 'Pasta Dental Para Niños',
-        IMAGENES: 'C5.JPEG',
+        IMAGENES: 'CE6.JPG',
         price: 120000
     },
     {
         id: 7,
         name: 'clorex enjuague bucal clorhexidina',
-        IMAGENES: 'E1.WEBP',
+        IMAGENES: 'CE7.PNG',
         price: 12000
     },
     {
         id: 8,
         name: 'Listerine enjuague bucal cuidado total',
-        IMAGENES: 'E2.WEBP',
+        IMAGENES: 'CE8.PNG',
         price: 12000
     },
     {
         id: 9,
         name: 'Pasta Dental Para Niños',
-        IMAGENES: 'E3.WEBP',
+        IMAGENES: 'CE9.JPG',
         price: 12000
     }
     
