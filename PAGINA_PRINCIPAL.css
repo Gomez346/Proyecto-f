@@ -291,7 +291,7 @@ body{
 
 .navbar.active{
   visibility: visible;
-  max-height: 290px;
+  max-height: 390px;
   transition-duration: 0.5s;
 }
 
